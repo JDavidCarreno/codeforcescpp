@@ -1,0 +1,11 @@
+# Ignorar absolutamente todo
+*
+
+# Pero NO ignorar los archivos .cpp
+!*.cpp
+
+# Tampoco ignores el propio .gitignore
+!.gitignore
+
+# Si tienes carpetas, podrías querer ignorar los binarios sin extensión
+# (Como los que genera g++ por defecto)
